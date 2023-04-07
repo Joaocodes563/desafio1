@@ -1,15 +1,8 @@
-titulo{
-    color: rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 48px;
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    margin: 60px;
 
-}
 body{
-    background-color: rgb(255, 255, 255);
     margin: auto;
+    width: 100%;
+    font-family: 'Mulish';
 }
 
 header{
@@ -21,24 +14,42 @@ header{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     
 }
-footer{
-    background-color: rgb(44, 44, 44);
-    min-height: 30px;
-    color: white;
-    text-align: right;
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.titulo{
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    text-align: center;
+    margin: auto;
+    width: 85%;
+    padding: 50px;
+
+}
+.descricao{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
 }
 
 imagens/fotoa.jpg{
     -ms-flex-item-align: center;
 }
-
-div{
-    margin: 60px;
-    text-align: center;
-
+.image{
+    margin:auto;
+    width: 500px;
+    border-radius: 50%;
 }
-paragrafo2{
+
+.paragrafo2{
     margin: 60px;
     text-align: center;
     font-size: 22px;
+}
+.footerPAGE{
+    background-color: rgb(44, 44, 44);
+    min-height: 30px;
+    color: white;
+    text-align: right;
 }
